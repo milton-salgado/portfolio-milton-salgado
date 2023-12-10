@@ -445,7 +445,7 @@ Error generating stack: `+i.message+`
     width: 600px;
 
     @media screen and (max-width: 767px) {
-        width: 400px;
+        width: 100%;
         justify-content: space-between;
     }
 `,cv=O.li``,fv=O.a`
