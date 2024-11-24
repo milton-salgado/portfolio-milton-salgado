@@ -64,22 +64,37 @@ function Header() {
                     <HeaderNavStyle>
                         <HeaderNavUnorderedListStyle>
                             <HeaderNavUnorderedListItemStyle>
-                                <LinkStyle to="/">INÍCIO</LinkStyle>
+                                <LinkStyle to="/portfolio-milton-salgado/">
+                                    INÍCIO
+                                </LinkStyle>
                             </HeaderNavUnorderedListItemStyle>
                             <HeaderNavUnorderedListItemStyle>
-                                <LinkStyle to="/About">SOBRE</LinkStyle>
+                                <LinkStyle to="/portfolio-milton-salgado/about">
+                                    SOBRE
+                                </LinkStyle>
                             </HeaderNavUnorderedListItemStyle>
                             <HeaderNavUnorderedListItemStyle>
-                                <LinkStyle to="/Projects">PROJETOS</LinkStyle>
+                                <LinkStyle to="/portfolio-milton-salgado/projects">
+                                    PROJETOS
+                                </LinkStyle>
                             </HeaderNavUnorderedListItemStyle>
                         </HeaderNavUnorderedListStyle>
                     </HeaderNavStyle>
                 </HeaderStyle>
 
                 <Routes>
-                    <Route path="/" element={<Beginning />} />
-                    <Route path="/About" element={<About />} />
-                    <Route path="/Projects" element={<Projects />} />
+                    <Route
+                        path="/portfolio-milton-salgado/"
+                        element={<Beginning />}
+                    />
+                    <Route
+                        path="/portfolio-milton-salgado/about"
+                        element={<About />}
+                    />
+                    <Route
+                        path="/portfolio-milton-salgado/projects"
+                        element={<Projects />}
+                    />
                 </Routes>
             </BrowserRouter>
         </>
